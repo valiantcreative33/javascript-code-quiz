@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Code Quiz</title>
+    <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>JavaScript Code Quiz</h1>
+        <!-- add link to score board -->
+        <!-- add timer -->
+    </header>
+    <main>
+        <div class="quiz" id="quiz">
+            <div class="instructions" id="instructions">
+                <h2>Instructions</h2>
+                <p>
+                    Welcome to the JavaScript Code Quiz! This is a timed multiple choice quiz that will test your practical knowledge.  
+                    Incorrect answers will result in a penalty. Try to beat your high score!
+                </p>
+                <p>
+                    Are you READY? Press the START button to begin!
+                </p>
+                <div class="start">
+                    <button class="btn" id="start-btn">START</button>
+                </div>
+            </div>
+                <div class="quiz-container">
+                    <div id="question"></div>
+                    <div id="answers"></div>
+                </div>
+                <div class="end"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="scores-container">
+            <div class="high-score">View High Scores</div>
+            <div class="score"></div>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
