@@ -10,6 +10,16 @@ var questions = [
         question: "what's the highest rank in jiujitsu?",
         answers: ["yellow", "red", "blue", "black"],
         correct: "red"
+    },
+    {
+        question: "what type of submission is a guillotine in jiujitsu?",
+        answers: ["arm lock", "shoulder lock", "choke", "leg lock"],
+        correct: "choke"
+    },
+    {
+        question: "what type of submission is a omoplata in jiujitsu?",
+        answers: ["arm lock", "shoulder lock", "choke", "leg lock"],
+        correct: "shoulder lock"
     }
 ]
     // for (i = 0; i < questions.length; i++) {
